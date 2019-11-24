@@ -25,6 +25,7 @@ import {TripDetailPage} from "../pages/trip-detail/trip-detail";
 import {TripsPage} from "../pages/trips/trips";
 import {LocalWeatherPage} from "../pages/local-weather/local-weather";
 import { ImmobilePage } from "../pages/immobile/immobile";
+import {DetailImmobilePage} from '../pages/detail-immobile/detail-immobile';
 
 
 // import services
@@ -47,7 +48,8 @@ import { ImmobilePage } from "../pages/immobile/immobile";
     SearchLocationPage,
     TripDetailPage,
     TripsPage,
-    ImmobilePage
+    ImmobilePage,
+    DetailImmobilePage
   ],
   imports: [
     BrowserModule,
@@ -75,7 +77,8 @@ import { ImmobilePage } from "../pages/immobile/immobile";
     SearchLocationPage,
     TripDetailPage,
     TripsPage,
-    ImmobilePage
+    ImmobilePage,
+    DetailImmobilePage
   ],
   providers: [
     StatusBar,

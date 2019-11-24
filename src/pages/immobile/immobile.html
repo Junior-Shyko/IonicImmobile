@@ -27,7 +27,7 @@
 <ion-content padding>
 
   <ion-card   *ngFor="let item of immobile">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuZcK6ZM5-6Xo1SoJjtI28x7G0h5lGrAhGNFefJ-X5CjWXabdq"/>
+    <img (click)="redirectToImmobile(item.immobiles_id)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuZcK6ZM5-6Xo1SoJjtI28x7G0h5lGrAhGNFefJ-X5CjWXabdq"/>
     <ion-card-content>
       <ion-card-title>
         {{item.immobiles_type_immobiles}} - {{item.immobiles_code}}
